@@ -38,3 +38,7 @@ check if remote repo is added
 -----------------------------
 git remote -v
 
+
+git push
+--------
+git push -u test master
