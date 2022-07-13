@@ -1,0 +1,43 @@
+setup git
+--------
+
+git config --global user.name "username"
+
+git config --global user.email "email"
+
+to list git username
+----------------------
+git config --list 
+
+
+initialise git after creating folder for project
+------------------------------------------------
+git init 
+
+add to staging area
+--------------------
+git add -A
+
+git commit 
+----------
+git commit -m "initial commit"
+
+
+git status
+-------------
+            
+git status ==> list all untracked files
+
+
+add remote repo path to local
+-------------------------------
+git remote add reponame "remote_repo_path"
+
+
+check if remote repo is added
+-----------------------------
+git remote -v
+
+git push
+--------
+git push -u test master
